@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  --darker: rgba(59, 59, 59, 0.925);
+  --dark: rgba(139, 135, 135, 0.925);
+  --light: rgb(238, 235, 235);
+  --theme: rgb(78, 78, 236);
+}
+
+/* Navigation Bar */
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header ul {
+  list-style: none;
+  padding: 0.8rem;
+}
+
+header ul li {
+  text-align: center;
+  margin: 0.8rem;
+  display: inline-block;
+}
+
+header ul li a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 0.2rem;
+}
+
+#brand {
+  text-align: center;
+  padding: 0.8rem;
+  color: var(--theme);
+}
+
+
+/* Footer Section */
+footer {
+  text-align: center;
+  margin-top: 3rem auto;
+  padding: 2rem;
+}
+
+footer p {
+  font-size: 1.2rem;
+}
+
+
+
